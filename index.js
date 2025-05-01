@@ -9,9 +9,11 @@ const products = [
     {
         "id": 1,
         "product_name": "Moon Cat",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
-        "collection": "Cat Collection",
+        "collection": "Women's Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382732/7_qtlaay.png",
         "description": "A cosmic fusion of lunar magic and feline charm—designed for dreamers and cat lovers alike.",
         "size": [
@@ -30,10 +32,12 @@ const products = [
     {
         "id": 2,
         "product_name": "Tokyo",
-        "price": 350,
+        "price": 530,
+        "discounted_price": 400,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Special Edition",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382716/1_wsou0l.png",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107849/Celestial_Fabrics_-_Tokyo_nlemxu.png",
         "description": "The ultimate statement tee from our Streetwear Collection.",
         "size": [
             "M",
@@ -52,9 +56,11 @@ const products = [
     {
         "id": 3,
         "product_name": "Ew People",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
-        "collection": "Cat Collection",
+        "collection": "Women's Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382727/6_xbxads.png",
         "description": "Tee—designed exclusively for ladies who love to stand apart.",
         "size": [
@@ -73,10 +79,12 @@ const products = [
     {
         "id": 4,
         "product_name": "The Space",
-        "price": 350,
+        "price": 530,
+        "discounted_price": 400,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Special Edition",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382712/2_pys4lx.png",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107839/Celestial_Fabrics_-_The_Space_sejbp5.png",
         "description": "the Space Tee from our new collection. Absolutely cosmic.",
         "size": [
             "M",
@@ -95,7 +103,9 @@ const products = [
     {
         "id": 5,
         "product_name": "Moon Knight",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/8_oeob2q.png",
@@ -116,7 +126,9 @@ const products = [
     {
         "id": 6,
         "product_name": "Venom",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/10_agi9ah.png",
@@ -137,7 +149,9 @@ const products = [
     {
         "id": 7,
         "product_name": "Black Panther",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/12_o8cyqx.png",
@@ -158,7 +172,9 @@ const products = [
     {
         "id": 8,
         "product_name": "The Punisher",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382740/11_kqpt5o.png",
@@ -179,7 +195,9 @@ const products = [
     {
         "id": 9,
         "product_name": "Red Spider",
-        "price": 350,
+        "price": 500,
+        "discounted_price": 370,
+        "discount": "130 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382729/9_xpzp3r.png",
@@ -201,7 +219,9 @@ const products = [
     {
         "id": 10,
         "product_name": "WAKANDA Black Panther",
-        "price": 420,
+        "price": 600,
+        "discounted_price": 450,
+        "discount": "150 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/13_h7wvuv.png",
@@ -223,9 +243,11 @@ const products = [
     {
         "id": 11,
         "product_name": "Wanna Be Yours",
-        "price": 420,
+        "price": 600,
+        "discounted_price": 450,
+        "discount": "150 Taka",
         "type": "printed-tshirt",
-        "collection": "Music Collection",
+        "collection": "Women's Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744409143/Celestial_Fabrics_-_Wanna_Be_Yours_oyu16f.jpg",
         "description": "Vibe to Arctic Monkeys' 'AM' era in this premium black cotton tee featuring the unmistakable soundwave graphic.",
         "size": [
@@ -243,8 +265,32 @@ const products = [
     },
     {
         "id": 12,
+        "product_name": "Spider Verse",
+        "price": 600,
+        "discounted_price": 450,
+        "discount": "150 Taka",
+        "type": "printed-tshirt",
+        "collection": "Special Edition",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1745346599/Celestial_Fabrics_-_Spider_Verse_Dual_beswu1.png",
+        "description": "Unleash your inner hero with this premium black cotton tee featuring the iconic Spider-Verse design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon",
+        "product_code": "SE-0003",
+    },
+    {
+        "id": 13,
         "product_name": "Solid Tee - Black",
-        "price": 250,
+        "price": 270,
+        "discounted_price": 249,
+        "discount": "21 Taka",
         "type": "solid-tshirt",
         "collection": "Solid Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408982/Celestial_Fabrics_-_Solid_Tee_Black_qoxano.png",
@@ -264,9 +310,11 @@ const products = [
     },
     {
 
-        "id": 13,
+        "id": 14,
         "product_name": "Solid Tee - Off White",
-        "price": 250,
+        "price": 270,
+        "discounted_price": 249,
+        "discount": "21 Taka",
         "type": "solid-tshirt",
         "collection": "Solid Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408984/Celestial_Fabrics_-_Solid_Tee_Off_White_h6tpwq.png",
@@ -282,6 +330,33 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "ST-U001",
+        "gender": "Unisex"
+    },
+    {
+        "id": 15,
+        "product_name": "Drop Shoulder - Solid",
+        "price": 499,
+        "discounted_price": 399,
+        "discount": "100 Taka",
+        "type": "solid-tshirt",
+        "collection": "Solid Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107887/WhatsApp_Image_2025-05-01_at_18.52.22_e98e576e_h522jy.jpg",
+        "description": "Elevate your wardrobe with this premium interlock drop shoulder tee, a versatile staple for any outfit.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Maroon",
+            "Off White",
+            "Bottle Green",
+            "Sky Blue",
+            "Black",
+        ],
+        "stock": "Coming Soon",
+        "product_code": "SD-U001",
         "gender": "Unisex"
     }
 ]
