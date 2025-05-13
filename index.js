@@ -9,9 +9,9 @@ const products = [
     {
         "id": 1,
         "product_name": "Moon Cat",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Women's Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382732/7_qtlaay.png",
@@ -27,14 +27,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "CAT-0002",
+        "fabric": "Cotton",
         "gender": "Women"
     },
     {
         "id": 2,
         "product_name": "Tokyo",
-        "price": 530,
+        "price": 500,
         "discounted_price": 400,
-        "discount": "130 Taka",
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Special Edition",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107849/Celestial_Fabrics_-_Tokyo_nlemxu.png",
@@ -50,15 +51,16 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "SE-0001",
+        "fabric": "Cotton",
         "gender": "Unisex"
 
     },
     {
         "id": 3,
         "product_name": "Ew People",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Women's Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382727/6_xbxads.png",
@@ -74,14 +76,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "CAT-0001",
+        "fabric": "Cotton",
         "gender": "Women"
     },
     {
         "id": 4,
         "product_name": "The Space",
-        "price": 530,
+        "price": 500,
         "discounted_price": 400,
-        "discount": "130 Taka",
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Special Edition",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107839/Celestial_Fabrics_-_The_Space_sejbp5.png",
@@ -97,15 +100,16 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "SE-0002",
+        "fabric": "Cotton",
         "gender": "Men"
 
     },
     {
         "id": 5,
         "product_name": "Moon Knight",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/8_oeob2q.png",
@@ -121,14 +125,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0001",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
         "id": 6,
         "product_name": "Venom",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/10_agi9ah.png",
@@ -144,14 +149,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0003",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
         "id": 7,
         "product_name": "Black Panther",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/12_o8cyqx.png",
@@ -167,14 +173,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0005",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
         "id": 8,
         "product_name": "The Punisher",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382740/11_kqpt5o.png",
@@ -190,14 +197,15 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0004",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
         "id": 9,
         "product_name": "Red Spider",
-        "price": 500,
-        "discounted_price": 370,
-        "discount": "130 Taka",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
         "type": "printed-tshirt",
         "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382729/9_xpzp3r.png",
@@ -214,6 +222,7 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0002",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
@@ -238,6 +247,7 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MVL-0006",
+        "fabric": "Cotton",
         "gender": "Men"
     },
     {
@@ -261,6 +271,7 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "MS-0001",
+        "fabric": "Cotton",
         "gender": "Women"
     },
     {
@@ -284,13 +295,15 @@ const products = [
         ],
         "stock": "Coming Soon",
         "product_code": "SE-0003",
+        "fabric": "Cotton",
+        "gender": "Men"
     },
     {
         "id": 13,
-        "product_name": "Solid Tee - Black",
-        "price": 270,
+        "product_name": "Premium Tshirt - Black",
+        "price": 299,
         "discounted_price": 249,
-        "discount": "21 Taka",
+        "discount": "50 Taka",
         "type": "solid-tshirt",
         "collection": "Solid Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408982/Celestial_Fabrics_-_Solid_Tee_Black_qoxano.png",
@@ -306,15 +319,16 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "ST-U001",
+        "fabric": "Cotton",
         "gender": "Unisex"
     },
     {
 
         "id": 14,
-        "product_name": "Solid Tee - Off White",
-        "price": 270,
+        "product_name": " Premium Tshirt - Off White",
+        "price": 299,
         "discounted_price": 249,
-        "discount": "21 Taka",
+        "discount": "50 Taka",
         "type": "solid-tshirt",
         "collection": "Solid Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408984/Celestial_Fabrics_-_Solid_Tee_Off_White_h6tpwq.png",
@@ -330,15 +344,16 @@ const products = [
         ],
         "stock": "Available",
         "product_code": "ST-U001",
+        "fabric": "Cotton",
         "gender": "Unisex"
     },
     {
         "id": 15,
-        "product_name": "Drop Shoulder - Solid",
+        "product_name": "Premium Drop Shoulder - Rib",
         "price": 499,
         "discounted_price": 399,
         "discount": "100 Taka",
-        "type": "solid-tshirt",
+        "type": "drop-shoulder",
         "collection": "Solid Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107887/WhatsApp_Image_2025-05-01_at_18.52.22_e98e576e_h522jy.jpg",
         "description": "Elevate your wardrobe with this premium interlock drop shoulder tee, a versatile staple for any outfit.",
@@ -349,16 +364,235 @@ const products = [
             "XXL"
         ],
         "color": [
-            "Maroon",
-            "Off White",
-            "Bottle Green",
-            "Sky Blue",
             "Black",
+            "White",
+            "Chocolate",
+            "Navy",
+            "Cream",
+            "Gray"
         ],
         "stock": "Coming Soon",
-        "product_code": "SD-U001",
+        "product_code": "ST-U003",
+        "fabric": "Rib Fabric",
         "gender": "Unisex"
-    }
+    },
+    {
+        "id": 16,
+        "product_name": "FCB 1st Edition",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/FCB_1st_Edition_tmln7g.png",
+        "description": "Visca el Barca! Show your support for FC Barcelona with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0005",
+        "gender": "Men"
+    },
+    {
+        "id": 17,
+        "product_name": "FCB 2nd Edition",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110980/FCB_2nd_Edition_nrxzfw.png",
+        "description": "Visca el Barca! Show your support for FC Barcelona with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0009",
+        "gender": "Men"
+    },
+    {
+        "id": 18,
+        "product_name": "Inter Milan",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Inter_Milan_akshto.png",
+        "description": "Forza Inter! Show your support for Inter Milan with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0001",
+        "gender": "Men"
+    },
+    {
+        "id": 19,
+        "product_name": "Dortmund",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747111012/Dortmund_wedsyc.png",
+        "description": "Echte Liebe! Show your support for Borussia Dortmund with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0002",
+        "gender": "Men"
+    },
+    {
+        "id": 20,
+        "product_name": "Liverpool",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Liverpool_fa8jsc.png",
+        "description": "You'll Never Walk Alone! Show your support for Liverpool with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0003",
+        "gender": "Men"
+    },
+    {
+        "id": 21,
+        "product_name": "Real Madrid 1st Edition",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110981/Real_Madrid_1st_Edition_d4fm51.png",
+        "description": "Hala Madrid! Show your support for Real Madrid with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0004",
+        "gender": "Men"
+    },
+    {
+        "id": 22,
+        "product_name": "Real Madrid 2nd Edition",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110990/Real_Madrid_2nd_Edition_vv7jrc.png",
+        "description": "Hala Madrid! Show your support for Real Madrid with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0006",
+        "gender": "Men"
+    },
+    {
+        "id": 23,
+        "product_name": "Man City",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Man_City_a0uxkr.png",
+        "description": "City till I die! Show your support for Manchester City with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0007",
+        "gender": "Men"
+    },
+    {
+        "id": 24,
+        "product_name": "FC Bayern",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "Sports Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747111006/FC_BAYERN_ofmbep.png",
+        "description": "Mia San Mia! Show your support for Bayern Munich with this premium black cotton tee, featuring the iconic club design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black",
+        ],
+        "stock": "Available",
+        "fabric": "Cotton",
+        "product_code": "FC-0008",
+        "gender": "Men"
+    },
+
 ]
 
 app.get('/', (req, res) => {
