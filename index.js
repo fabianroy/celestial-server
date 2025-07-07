@@ -468,7 +468,150 @@ const products = [
         "fabric": "Cotton",
         "gender": "Unisex"
     },
-
+    {
+        "id": 20,
+        "product_name": "Batman",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902579/Batman_skpgkv.png",
+        "description": "Unleash your inner hero with this premium black cotton tee featuring the iconic Batman logo.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0001",
+        "fabric": "Cotton",
+        "gender": "Unisex"
+    },
+    {
+        "id": 21,
+        "product_name": "Batman The Dark Knight",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902577/Batman_-_Dark_Knight_apz6ep.png",
+        "description": "Embrace the legacy of Gotham's protector with this premium black cotton tee featuring the iconic Dark Knight design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0002",
+        "fabric": "Cotton",
+        "gender": "Men"
+    },
+    {
+        "id": 22,
+        "product_name": "The Batman",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902582/The_Batman_fyiq21.png",
+        "description": "Step into the shadows of Gotham with this premium black cotton tee featuring the iconic The Batman design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0003",
+        "fabric": "Cotton",
+        "gender": "Men"
+    },
+    {
+        "id": 23,
+        "product_name": "The Dark Knight",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902580/The_Dark_Knight_yvk1cr.png",
+        "description": "Honor the legacy of Gotham's protector with this premium black cotton tee featuring the iconic The Dark Knight design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0004",
+        "fabric": "Cotton",
+        "gender": "Men"
+    },
+    {
+        "id": 24,
+        "product_name": "Batman Gotham City",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902644/Gotham_City_-_Batman_uija0w.png",
+        "description": "Represent the heart of Gotham with this premium black cotton tee featuring the iconic Gotham City design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0005",
+        "fabric": "Cotton",
+        "gender": "Men"
+    },
+    {
+        "id": 25,
+        "product_name": "VENGEANCE",
+        "price": 450,
+        "discounted_price": 350,
+        "discount": "100 Taka",
+        "type": "printed-tshirt",
+        "collection": "DC Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751902580/VENGEANCE_s0bqsl.png",
+        "description": "Embrace the spirit of vengeance with this premium black cotton tee featuring the iconic Vengeance design.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code": "DC-0006",
+        "fabric": "Cotton",
+        "gender": "Men"
+    },
     {
         "id": 20,
         "product_name": "Tote Bag - Solid",
