@@ -355,37 +355,33 @@ const products = [
         "discount": "100 Taka",
         "type": "drop-shoulder",
         "collection": "Solid Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1746107887/WhatsApp_Image_2025-05-01_at_18.52.22_e98e576e_h522jy.jpg",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1748714385/WhatsApp_Image_2025-05-02_at_23.19.09_6aace476_yruumv.jpg",
         "description": "Elevate your wardrobe with this premium interlock drop shoulder tee, a versatile staple for any outfit.",
         "size": [
             "M",
             "L",
             "XL",
-            "XXL"
         ],
         "color": [
-            "Black",
-            "White",
-            "Chocolate",
             "Navy",
             "Cream",
             "Gray"
         ],
-        "stock": "Coming Soon",
+        "stock": "Available",
         "product_code": "ST-U003",
         "fabric": "Rib Fabric",
         "gender": "Unisex"
     },
     {
         "id": 16,
-        "product_name": "FCB 1st Edition",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
+        "product_name": "Red Light",
+        "price": 499,
+        "discounted_price": 400,
+        "discount": "99 Taka",
         "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/FCB_1st_Edition_tmln7g.png",
-        "description": "Visca el Barca! Show your support for FC Barcelona with this premium black cotton tee, featuring the iconic club design.",
+        "collection": "Movies & Series",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751896649/red_light_e3sp4o.png",
+        "description": "Inspired by the Squid Game, this tee features a striking red light design that captures the essence of the series.",
         "size": [
             "M",
             "L",
@@ -393,23 +389,23 @@ const products = [
             "XXL"
         ],
         "color": [
-            "Black",
+            "Black"
         ],
         "stock": "Available",
+        "product_code": "MVS-0001",
         "fabric": "Cotton",
-        "product_code": "FC-0005",
-        "gender": "Men"
+        "gender": "Unisex"
     },
     {
         "id": 17,
-        "product_name": "FCB 2nd Edition",
+        "product_name": "Young-hee",
         "price": 450,
         "discounted_price": 350,
         "discount": "100 Taka",
         "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110980/FCB_2nd_Edition_nrxzfw.png",
-        "description": "Visca el Barca! Show your support for FC Barcelona with this premium black cotton tee, featuring the iconic club design.",
+        "collection": "Movies & Series",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751896647/Young-hee_zgjogd.png",
+        "description": "Inspired by the Squid Game, this tee features a striking Young-hee design that captures the essence of the series.",
         "size": [
             "M",
             "L",
@@ -417,23 +413,23 @@ const products = [
             "XXL"
         ],
         "color": [
-            "Black",
+            "Black"
         ],
         "stock": "Available",
+        "product_code": "MVS-0003",
         "fabric": "Cotton",
-        "product_code": "FC-0009",
-        "gender": "Men"
+        "gender": "Unisex"
     },
     {
         "id": 18,
-        "product_name": "Inter Milan",
+        "product_name": "Squid Game",
         "price": 450,
         "discounted_price": 350,
         "discount": "100 Taka",
         "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Inter_Milan_akshto.png",
-        "description": "Forza Inter! Show your support for Inter Milan with this premium black cotton tee, featuring the iconic club design.",
+        "collection": "Movies & Series",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751896645/Squid_Game_-_Celestial_Fabrics_gutwvb.png",
+        "description": "Inspired by the Squid Game, this tee features a striking Squid Game design that captures the essence of the series.",
         "size": [
             "M",
             "L",
@@ -441,23 +437,23 @@ const products = [
             "XXL"
         ],
         "color": [
-            "Black",
+            "Black"
         ],
         "stock": "Available",
+        "product_code": "MVS-0004",
         "fabric": "Cotton",
-        "product_code": "FC-0001",
-        "gender": "Men"
+        "gender": "Unisex"
     },
     {
         "id": 19,
-        "product_name": "Dortmund",
+        "product_name": "Squid Symbol",
         "price": 450,
         "discounted_price": 350,
         "discount": "100 Taka",
         "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747111012/Dortmund_wedsyc.png",
-        "description": "Echte Liebe! Show your support for Borussia Dortmund with this premium black cotton tee, featuring the iconic club design.",
+        "collection": "Movies & Series",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1751896647/Squid_Game_Symbol_esgzrk.png",
+        "description": "Inspired by the Squid Game, this tee features a striking Squid Symbol design that captures the essence of the series.",
         "size": [
             "M",
             "L",
@@ -465,133 +461,56 @@ const products = [
             "XXL"
         ],
         "color": [
-            "Black",
+            "Black"
         ],
         "stock": "Available",
+        "product_code": "MVS-0002",
         "fabric": "Cotton",
-        "product_code": "FC-0002",
-        "gender": "Men"
+        "gender": "Unisex"
     },
+
     {
         "id": 20,
-        "product_name": "Liverpool",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
-        "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Liverpool_fa8jsc.png",
-        "description": "You'll Never Walk Alone! Show your support for Liverpool with this premium black cotton tee, featuring the iconic club design.",
+        "product_name": "Tote Bag - Solid",
+        "price": 299,
+        "discounted_price": 250,
+        "discount": "49 Taka",
+        "type": "bag",
+        "collection": "Bag Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1748720507/987e9a4f-c311-47fd-bbb5-7e4728fa388b_hlqt1y.jpg",
+        "description": "Premium Solid Tote Bag, designed for the modern woman.",
         "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
+            "16x12 inches"
         ],
         "color": [
-            "Black",
+            "Black", "Lion", "Tiger Orange", "Maroon",
         ],
         "stock": "Available",
-        "fabric": "Cotton",
-        "product_code": "FC-0003",
-        "gender": "Men"
+        "fabric": "Canvas",
+        "product_code": "LB-0001",
+        "gender": "Women"
     },
     {
         "id": 21,
-        "product_name": "Real Madrid 1st Edition",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
-        "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110981/Real_Madrid_1st_Edition_d4fm51.png",
-        "description": "Hala Madrid! Show your support for Real Madrid with this premium black cotton tee, featuring the iconic club design.",
+        "product_name": "Tote Bag - Printed",
+        "price": 299,
+        "discounted_price": 250,
+        "discount": "49 Taka",
+        "type": "bag",
+        "collection": "Bag Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1748720677/Tote_Bags_-_Celestial_Fabrics_cut_isqye7.png",
+        "description": "Premium Printed Tote Bag, designed for the modern woman.",
         "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
+            "16x12 inches",
         ],
         "color": [
-            "Black",
+            "Black", "Lion", "Tiger Orange", "Maroon",
         ],
         "stock": "Available",
-        "fabric": "Cotton",
-        "product_code": "FC-0004",
-        "gender": "Men"
-    },
-    {
-        "id": 22,
-        "product_name": "Real Madrid 2nd Edition",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
-        "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110990/Real_Madrid_2nd_Edition_vv7jrc.png",
-        "description": "Hala Madrid! Show your support for Real Madrid with this premium black cotton tee, featuring the iconic club design.",
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-        "color": [
-            "Black",
-        ],
-        "stock": "Available",
-        "fabric": "Cotton",
-        "product_code": "FC-0006",
-        "gender": "Men"
-    },
-    {
-        "id": 23,
-        "product_name": "Man City",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
-        "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747110978/Man_City_a0uxkr.png",
-        "description": "City till I die! Show your support for Manchester City with this premium black cotton tee, featuring the iconic club design.",
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-        "color": [
-            "Black",
-        ],
-        "stock": "Available",
-        "fabric": "Cotton",
-        "product_code": "FC-0007",
-        "gender": "Men"
-    },
-    {
-        "id": 24,
-        "product_name": "FC Bayern",
-        "price": 450,
-        "discounted_price": 350,
-        "discount": "100 Taka",
-        "type": "printed-tshirt",
-        "collection": "Sports Collection",
-        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1747111006/FC_BAYERN_ofmbep.png",
-        "description": "Mia San Mia! Show your support for Bayern Munich with this premium black cotton tee, featuring the iconic club design.",
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-        "color": [
-            "Black",
-        ],
-        "stock": "Available",
-        "fabric": "Cotton",
-        "product_code": "FC-0008",
-        "gender": "Men"
-    },
+        "fabric": "Canvas",
+        "product_code": "LB-0002",
+        "gender": "Women"
+    }
 
 ]
 
